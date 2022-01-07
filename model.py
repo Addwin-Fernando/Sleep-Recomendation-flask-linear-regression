@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np  
 import matplotlib.pyplot as plt  
 
-url = "Sleep prediction by age group\Sleep-age-updated - Sheet1.csv"
+url = "./data.csv"
 s_data = pd.read_csv(url)
 
 s_data.head(10)
